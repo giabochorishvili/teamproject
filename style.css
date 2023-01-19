@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    
+}
+
+/* header */
+
+header{
+    height: 92px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 220px 16px 220px;
+}
+
+.header-nav{
+    display: flex;
+
+}
+
+.first-div{
+    margin-right: 94.5px;
+    display: flex;
+    align-items: center;
+}
+
+.first-div a{
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'DM Sans';
+    color: #4f9cf9;
+}
+
+.second-div{
+    display: flex;
+    gap: 24px;
+}
+
+.same-img{
+    margin-left: 10px;
+    margin-right: 32px;
+}
+
+.button1{
+    padding: 16px 40px 16px 40px;
+    background-color: #ffe492;
+    border-radius: 8px;
+    color: #043873;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.button2{
+    width: 227px;
+    padding: 16px 24px 16px 24px;
+    background-color: #4f9cf9;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-in-button{
+    margin-left: 15px;
+} 
+
+/* main */
+
+/* fisrt section */
+
+main{
+    width: 1920px;
+    padding: 140px 220px 140px 220px;
+}
+
+.main-div{
+    display: flex;
+}
+
+.text-main{
+    margin-top: 96px;
+    display: flex;
+    width: 656px;
+    height: 154px;
+    flex-wrap: wrap;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #4f9cf9;
+}
+
+.little-div{
+    background-image: url(/assets/Element.png);   /* ფოტოს ფონად დაყენება */
+}
+
+.p-main{
+    margin-top: 24px;
+    width: 626px;
+    height: 60px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #4f9cf9;
+    margin-bottom: 60px;
+
+}
+
+.a-main{
+    width: 219px;
+    height: 63px;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 10px ;
+    background-color: #4f9cf9;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.img-main{
+    width: 824px;
+    height: 549px;
+}
+
+.background{
+    position: absolute;   /* absolute- ატრიბუტი რომლის დახმარებითაც შეგვიძლია რაიმე საგნები ერთმანედს გადააჯდნენ ანუ ფონი გახდეს */
+}
+
+/* next section */
+
+.next-section{
+    margin-top: 280px;
+    background-image: url(/assets/BACKGROUND.png);
+    background-repeat: no-repeat;
+}
+
+.main-div2{
+    display: flex;
+}
+
+.text-main2{
+    margin-top: 68px;
+    margin-right: 130px;
+    width: 602px;
+    height: 174px;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #212529;
+    
+}
+
+.p-main2{
+    width: 672px;
+    height: 90px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #212529;
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.a-main2{
+    width: 201px;
+    height: 63px;
+    padding: 20px 40px 20px 40px;
+    gap: 10px;
+    background-color: #4f9cf9;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.background2{
+    position: absolute;
+    margin-left: -163px;
+    
+}
+
+span{
+    background-image: url(/assets/for-textdecoration.png);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-size: auto;
+    width: 500px;
+}
+
