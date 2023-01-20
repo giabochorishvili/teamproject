@@ -216,6 +216,118 @@ span{
     width: 500px;
 }
 
+/* next2-section */
+
+.next2-section{
+    display: flex;
+    margin-top: 100px;
+}
+
+.work-together{
+    width: 661px;
+    height: 661px;
+    margin-left: 35px;
+}
+
+.text-main3{
+    width: 670px;
+    height: 87px;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #212529;
+    margin-left: 114px;
+    margin-top: 183.5px;
+    background-image: url(/assets/together.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.p-main3{
+    width: 670px;
+    height: 60px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #212529;
+    margin-left: 114px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.a-main3{
+    width: 186px;
+    height: 63px;
+    border-radius: 6px;
+    padding: 20px 40px 20px 40px;
+    gap: 10px;
+    background-color: #4f9cf9;
+    color: #ffffff;
+    size: 18px;
+    line-height: 23px;
+    margin-left: 114px;
+}
+
+/* next3-section */
+
+.next3-section{
+    display: flex;
+    margin-top: 280px;
+}
+
+.text-main4{
+    width: 507px;
+    height: 174px;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #212529;
+    margin-top: 49px;
+    background-image: url(/assets/costumise.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.p-main4{
+    width: 697px;
+    height: 60px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #212529;
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.a-main4{
+    width: 176px;
+    height: 63px;
+    border-radius: 6px;
+    padding: 20px 40px 20px 40px;
+    gap: 10px;
+    background-color: #4f9cf9;
+    color: #ffffff;
+    size: 18px;
+    line-height: 23px;
+}
+
+.costumise{
+    margin-left: 98px;
+    width: 686px;
+    height: 479px;
+}
 
 
 
